@@ -17,6 +17,10 @@
     list-style: none;
   }
 
+  &__step__number {
+    background-color: $mainColor;
+  }
+
   &__step {
     padding: 19px;
     display: flex;
