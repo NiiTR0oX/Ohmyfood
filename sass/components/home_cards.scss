@@ -63,9 +63,12 @@
   }
   
   .fa-heart {
+    -webkit-text-stroke: 1px black;
     width: 22px;
     height: 21px;
-    color: #101010;
+    color: transparent;
     border: 1px;
+    margin-left: 290px;
+    margin-top: 20px;
   }
 }
