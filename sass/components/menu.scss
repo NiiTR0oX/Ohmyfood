@@ -13,31 +13,36 @@ header {
   }
 }
 
+.fa-arrow-left {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
 .cardimg {
   width: 100%;
   object-fit: cover;
 }
 
-.container {
-  width: 100%;
-  margin: auto;
-  position: relative;
-}
-
 .menu {
+  width: 100%;
+  border-radius: 40px 40px 0px 0px;
   background-color: #f6f6f6;
-  margin-top: -64px;
-  border-radius: 32 32 0 0;
+  margin-top: -54px;
   position: relative;
 
   &__header {
-    display: flex;
+    margin-bottom: 64px;
+    display: grid;
+    grid-template-columns: auto auto;
     align-items: center;
-    justify-content: space-between;
   }
 
   &__title {
-    font-family: "Shrikhand" "cursive";
+    font-family: "Shrikhand", "cursive";
     font-style: italic;
     font-size: 28px;
     font-weight: 400;
@@ -52,8 +57,6 @@ header {
   &__heart {
     background-color: #f6f6f6;
     position: absolute;
-    top: 0;
-    left: 0;
     height: 100%;
     width: 100%;
     display: flex;
@@ -79,16 +82,16 @@ header {
     height: 21px;
     color: transparent;
     border: 1px;
-    left: 312px;
     margin-top: 20px;
   }
 }
 
-.entermenus {
-  display: grid;
-}
-
-.entermenu {
-  width: 100%;
-  padding: 0 12px;
+.menu__enter {
+  display: flex;
+  flex-direction: column;
+  h2 {
+  width: 40px;
+  height: 3px;
+  background-color: $tertiaryColor;
+  }
 }
