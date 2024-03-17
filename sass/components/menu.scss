@@ -28,11 +28,11 @@ header {
 }
 
 .menu {
-  width: 100%;
   border-radius: 40px 40px 0px 0px;
   background-color: #f6f6f6;
-  margin-top: -54px;
+  margin-top: -40px;
   position: relative;
+  padding: 20px;
 
   &__header {
     margin-bottom: 64px;
@@ -87,11 +87,56 @@ header {
 }
 
 .menu__enter {
+  display: grid;
+  gap: 64px;
+}
+
+.menu__list {
   display: flex;
   flex-direction: column;
-  h2 {
+  gap: 32px;
+}
+
+.menu__title__h2 {
+  display: flex;
+  flex-direction: column;
   width: 40px;
   height: 3px;
   background-color: $tertiaryColor;
+}
+
+.enter__item {
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  &__info {
+    padding: 24px;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+  }
+
+  &__content {
+      font-weight: 500;
+      font-size: 18px;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__detail {
+    font-weight: 300;
+    font-size: 15.04px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  &__price {
+    font-weight: 700;
+    display: flex;
   }
 }

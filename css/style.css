@@ -209,11 +209,11 @@ header img {
 }
 
 .menu {
-  width: 100%;
   border-radius: 40px 40px 0px 0px;
   background-color: #f6f6f6;
-  margin-top: -54px;
+  margin-top: -40px;
   position: relative;
+  padding: 20px;
 }
 .menu__header {
   margin-bottom: 64px;
@@ -262,13 +262,53 @@ header img {
 }
 
 .menu__enter {
+  display: grid;
+  gap: 64px;
+}
+
+.menu__list {
   display: flex;
   flex-direction: column;
+  gap: 32px;
 }
-.menu__enter h2 {
+
+.menu__title__h2 {
+  display: flex;
+  flex-direction: column;
   width: 40px;
   height: 3px;
   background-color: #99e2d0;
+}
+
+.enter__item {
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.enter__item__info {
+  padding: 24px;
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+.enter__item__content {
+  font-weight: 500;
+  font-size: 18px;
+}
+.enter__item__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.enter__item__detail {
+  font-weight: 300;
+  font-size: 15.04px;
+  font-family: "Roboto", sans-serif;
+}
+.enter__item__price {
+  font-weight: 700;
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
