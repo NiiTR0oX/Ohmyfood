@@ -97,9 +97,10 @@ header img {
   border-top: 726px;
   border-radius: 20px;
   color: #f6f6f6;
+  margin-left: -12px;
 }
 .tuto__step {
-  padding: 10px 20px;
+  padding: 10px 20px 10px 0px;
   display: flex;
   align-items: center;
   border-radius: 20px;
@@ -123,6 +124,7 @@ header img {
 }
 
 .card {
+  position: relative;
   width: 100%;
   background-color: #fff;
   color: inherit;
@@ -147,7 +149,8 @@ header img {
   border-radius: 2px;
   margin-top: 13px;
   position: absolute;
-  left: 248px;
+  right: 5%;
+  top: 5%;
   font-size: 14px;
   font-weight: 500;
 }
@@ -155,13 +158,13 @@ header img {
   padding: 16px;
   position: relative;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 .card__title {
   margin: 0;
   margin-bottom: 12px;
 }
-.card__btn {
+.card__heart {
   width: 32px;
   height: 32px;
   background-color: transparent;
@@ -177,8 +180,6 @@ header img {
   height: 21px;
   color: transparent;
   border: 1px;
-  margin-left: 290px;
-  margin-top: 20px;
 }
 
 header {

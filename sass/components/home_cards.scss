@@ -9,6 +9,7 @@
 }
 
 .card {
+  position: relative;
   width: 100%;
   background-color: #fff;
   color: inherit;
@@ -34,7 +35,8 @@
     border-radius: 2px;
     margin-top: 13px;
     position: absolute;
-    left: 248px;
+    right: 5%;
+    top: 5%;
     font-size: 14px;
     font-weight: 500;
   }
@@ -43,7 +45,7 @@
     padding: 16px;
     position: relative;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
   }
 
   &__title {
@@ -51,7 +53,7 @@
     margin-bottom: 12px;
   }
   
-  &__btn {
+  &__heart {
     width: 32px;
     height: 32px;
     background-color: transparent;
@@ -68,7 +70,5 @@
     height: 21px;
     color: transparent;
     border: 1px;
-    margin-left: 290px;
-    margin-top: 20px;
   }
 }
