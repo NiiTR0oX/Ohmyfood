@@ -53,22 +53,5 @@
     margin-bottom: 12px;
   }
   
-  &__heart {
-    width: 32px;
-    height: 32px;
-    background-color: transparent;
-    border: transparent 0px solid;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   
-  .fa-heart {
-    -webkit-text-stroke: 1px black;
-    width: 22px;
-    height: 21px;
-    color: transparent;
-    border: 1px;
-  }
 }

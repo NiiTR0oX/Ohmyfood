@@ -15,6 +15,8 @@ body {
 header {
   width: 100%;
   height: 63px;
+  display: flex;
+  align-items: center;
 }
 header img {
   width: 80%;
@@ -24,6 +26,7 @@ header img {
   margin-left: auto;
   margin-top: 14px;
   margin-right: auto;
+  margin-bottom: 14px;
 }
 
 .typography {
@@ -164,23 +167,6 @@ header img {
   margin: 0;
   margin-bottom: 12px;
 }
-.card__heart {
-  width: 32px;
-  height: 32px;
-  background-color: transparent;
-  border: transparent 0px solid;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.card .fa-heart {
-  -webkit-text-stroke: 1px black;
-  width: 22px;
-  height: 21px;
-  color: transparent;
-  border: 1px;
-}
 
 header {
   width: 100%;
@@ -195,10 +181,11 @@ header img {
   margin-top: 14px;
   margin-right: auto;
 }
+header a {
+  text-decoration: none;
+}
 
 .fa-arrow-left {
-  width: 32px;
-  height: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -288,7 +275,7 @@ header img {
   display: flex;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.enter__item__info {
+.enter__item .enter__info {
   padding: 24px;
   width: 100%;
   display: flex;
@@ -311,6 +298,50 @@ header img {
 .enter__item__price {
   font-weight: 700;
   display: flex;
+}
+
+.card__heart {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: transparent 0px solid;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.empty__heart {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.empty__heart:hover {
+  display: none;
+}
+.empty__heart:hover .full__heart {
+  display: block;
+}
+
+.full__heart {
+  width: 32px;
+  height: 32px;
+  display: none;
+}
+
+.check {
+  width: 0;
+  opacity: 0;
+}
+
+.enter__info:hover .check {
+  opacity: 1;
+  width: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */

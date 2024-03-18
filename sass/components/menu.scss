@@ -11,11 +11,13 @@ header {
     margin-top: 14px;
     margin-right: auto;
   }
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .fa-arrow-left {
-  width: 32px;
-  height: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -111,7 +113,7 @@ header {
   display: flex;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
-  &__info {
+.enter__info {
     padding: 24px;
     width: 100%;
     display: flex;

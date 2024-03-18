@@ -1,0 +1,8 @@
+.check {
+            width: 0;
+            opacity: 0;
+}
+.enter__info:hover .check{
+            opacity: 1;
+            width: 30%;
+}
