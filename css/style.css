@@ -216,6 +216,12 @@ header a {
   color: #000;
 }
 
+.header__arrow {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+
 .cardimg {
   width: 100%;
   object-fit: cover;
@@ -239,7 +245,6 @@ header a {
   font-style: italic;
   font-size: 28px;
   font-weight: 400;
-  margin-left: 17px;
   color: #101010;
 }
 .menu:hover {
@@ -276,7 +281,6 @@ header a {
 
 .menu__enter {
   display: grid;
-  gap: 64px;
 }
 
 .menu__list {
@@ -293,6 +297,8 @@ header a {
   height: 3px;
   background-color: #99e2d0;
   margin-bottom: 20px;
+  font-weight: 300;
+  size: 16px;
 }
 
 .enter__item {
@@ -424,6 +430,7 @@ header a {
   opacity: 0;
   background-color: #99e2d0;
   margin: -16px -80px -16px -16px;
+  flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -435,14 +442,19 @@ header a {
   width: 30%;
 }
 
-.button {
-  padding: 17px 20px;
+.commander {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.commander__btn {
+  padding: 15px 45px;
   font-weight: 500;
   border-radius: 25px;
   color: #fff;
-  background: linear-gradient(#9856dc, #ff79da);
+  background: linear-gradient(#ff79da, #9856dc);
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
