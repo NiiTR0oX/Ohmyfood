@@ -434,7 +434,8 @@ header a {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition-duration: 0.5s;
+  color: #fff;
+  border-radius: 0 15px 15px 0;
 }
 
 .enter__info:hover .check {

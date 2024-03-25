@@ -7,7 +7,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition-duration: .5s;
+  color: #fff;
+  border-radius: 0 15px 15px 0;
 }
 .enter__info:hover .check {
   opacity: 1;
