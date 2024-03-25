@@ -37,7 +37,7 @@ header {
   padding: 20px;
 
   &__header {
-    margin-bottom: 64px;
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
@@ -96,7 +96,8 @@ header {
 .menu__list {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  margin-bottom: 20px;
+  gap: 12px;
 }
 
 .menu__title__h2 {
@@ -105,6 +106,7 @@ header {
   width: 40px;
   height: 3px;
   background-color: $tertiaryColor;
+  margin-bottom: 20px;
 }
 
 .enter__item {
@@ -114,10 +116,79 @@ header {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
 .enter__info {
-    padding: 24px;
+    padding: 15px;
     width: 100%;
     display: flex;
-    gap: 16px;
+  }
+
+  &__content {
+      font-weight: 500;
+      font-size: 18px;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__detail {
+    font-weight: 300;
+    font-size: 15.04px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  &__price {
+    font-weight: 700;
+    display: flex;
+  }
+}
+
+.flat__item {
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+.flat__info {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+  }
+
+  &__content {
+      font-weight: 500;
+      font-size: 18px;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__detail {
+    font-weight: 300;
+    font-size: 15.04px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  &__price {
+    font-weight: 700;
+    display: flex;
+  }
+}
+
+.desserts__item {
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+.desserts__info {
+    padding: 15px;
+    width: 100%;
+    display: flex;
   }
 
   &__content {

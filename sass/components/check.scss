@@ -1,8 +1,14 @@
 .check {
-            width: 0;
-            opacity: 0;
+  width: 0;
+  opacity: 0;
+  background-color: $tertiaryColor;
+  margin: -16px -80px -16px -16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .5s;
 }
-.enter__info:hover .check{
-            opacity: 1;
-            width: 30%;
+.enter__info:hover .check {
+  opacity: 1;
+  width: 30%;
 }
