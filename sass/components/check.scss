@@ -1,16 +1,26 @@
 .check {
   width: 0;
   opacity: 0;
-  background-color: $tertiaryColor;
-  margin: -16px -80px -16px -16px;
+  background: $tertiaryColor;
   flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   border-radius: 0 15px 15px 0;
+  transition: all 400ms ease-in-out;
 }
 .enter__info:hover .check {
+  opacity: 1;
+  width: 30%;
+}
+
+.flat__info:hover .check {
+  opacity: 1;
+  width: 30%;
+}
+
+.desserts__info:hover .check {
   opacity: 1;
   width: 30%;
 }

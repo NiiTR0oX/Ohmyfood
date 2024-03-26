@@ -4,9 +4,6 @@
   background-color: transparent;
   border: transparent 0px solid;
   padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
 }
 
@@ -18,11 +15,14 @@
   left: 0;
   right: 0;
   bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
     display: none;
     .full__heart {
-      display: block;
+      background: linear-gradient($secondColor, $mainColor);
     }
   }
 }
