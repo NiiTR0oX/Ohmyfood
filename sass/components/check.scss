@@ -10,9 +10,14 @@
   border-radius: 0 15px 15px 0;
   transition: all 400ms ease-in-out;
 }
-.enter__info:hover .check {
-  opacity: 1;
-  width: 30%;
+.enter__info:hover {
+  .check {
+    opacity: 1;
+    width: 30%;
+  }
+  .enter__text {
+    width: 50%;
+  }
 }
 
 .flat__info:hover .check {
