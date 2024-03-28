@@ -1,31 +1,26 @@
-.cardimg {
-  width: 100%;
-  object-fit: cover;
-}
-
-.enter__item {
+.flat__item {
   background-color: #fff;
   border-radius: 15px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
-.enter__info {
+  .flat__info {
     width: 100%;
     display: flex;
     justify-content: space-between;
   }
 
   &__content {
-      font-weight: 500;
-      font-size: 18px;
+    font-weight: 500;
+    font-size: 18px;
   }
 
-  .enter__text {
+  .flat__text {
     width: 80%;
     padding: 15px 0 15px 15px;
     text-overflow: ellipsis;
     word-break: break-word;
     overflow: hidden;
-    h3, 
+    h3,
     p {
       text-overflow: ellipsis;
       word-break: break-word;
@@ -40,7 +35,7 @@
     font-family: "Roboto", sans-serif;
   }
 
-  .enter__price {
+  .flat__price {
     font-weight: 700;
     display: flex;
     align-items: flex-end;

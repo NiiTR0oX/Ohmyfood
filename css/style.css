@@ -153,6 +153,11 @@ header img {
   margin: 16px;
 }
 
+@media screen and (max-width: 1440px) {
+  .tuto {
+    max-width: 1440px;
+  }
+}
 .restaurants {
   background-color: #f6f6f6;
   padding: 20px;
@@ -232,10 +237,12 @@ header img {
   word-break: break-word;
   overflow: hidden;
 }
-.enter__item .enter__text h3, .enter__item .enter__text p {
+.enter__item .enter__text h3,
+.enter__item .enter__text p {
   text-overflow: ellipsis;
   word-break: break-word;
   overflow: hidden;
+  white-space: nowrap;
 }
 .enter__item__detail {
   font-weight: 300;
@@ -249,66 +256,6 @@ header img {
   width: 20%;
   justify-content: flex-end;
   padding-right: 10px;
-}
-
-.flat__item {
-  background-color: #fff;
-  border-radius: 15px;
-  display: flex;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-.flat__item .flat__info {
-  padding: 15px;
-  width: 100%;
-  display: flex;
-}
-.flat__item__content {
-  font-weight: 500;
-  font-size: 18px;
-}
-.flat__item__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.flat__item__detail {
-  font-weight: 300;
-  font-size: 15.04px;
-  font-family: "Roboto", sans-serif;
-}
-.flat__item__price {
-  font-weight: 700;
-  display: flex;
-}
-
-.desserts__item {
-  background-color: #fff;
-  border-radius: 15px;
-  display: flex;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-.desserts__item .desserts__info {
-  padding: 15px;
-  width: 100%;
-  display: flex;
-}
-.desserts__item__content {
-  font-weight: 500;
-  font-size: 18px;
-}
-.desserts__item__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.desserts__item__detail {
-  font-weight: 300;
-  font-size: 15.04px;
-  font-family: "Roboto", sans-serif;
-}
-.desserts__item__price {
-  font-weight: 700;
-  display: flex;
 }
 
 .card__heart {
@@ -471,6 +418,90 @@ header img {
   bottom: 0;
   position: absolute;
   margin-bottom: -5px;
+}
+
+.flat__item {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.flat__item .flat__info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.flat__item__content {
+  font-weight: 500;
+  font-size: 18px;
+}
+.flat__item .flat__text {
+  width: 80%;
+  padding: 15px 0 15px 15px;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  overflow: hidden;
+}
+.flat__item .flat__text h3,
+.flat__item .flat__text p {
+  text-overflow: ellipsis;
+  word-break: break-word;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.flat__item__detail {
+  font-weight: 300;
+  font-size: 15.04px;
+  font-family: "Roboto", sans-serif;
+}
+.flat__item .flat__price {
+  font-weight: 700;
+  display: flex;
+  align-items: flex-end;
+  width: 20%;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.desserts__item {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.desserts__item .desserts__info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.desserts__item__content {
+  font-weight: 500;
+  font-size: 18px;
+}
+.desserts__item .desserts__text {
+  width: 80%;
+  padding: 15px 0 15px 15px;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  overflow: hidden;
+}
+.desserts__item .desserts__text h3,
+.desserts__item .desserts__text p {
+  text-overflow: ellipsis;
+  word-break: break-word;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.desserts__item__detail {
+  font-weight: 300;
+  font-size: 15.04px;
+  font-family: "Roboto", sans-serif;
+}
+.desserts__item .desserts__price {
+  font-weight: 700;
+  display: flex;
+  align-items: flex-end;
+  width: 20%;
+  justify-content: flex-end;
+  padding-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

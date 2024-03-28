@@ -47,3 +47,31 @@
     margin: 16px;
   }
 }
+
+@media screen and (max-width: 1440px) {
+  .tuto {
+    max-width: 1440px;
+    &__title {
+     
+    }
+    h2 {
+     
+    }
+  
+    &__steps {
+     
+    }
+  
+    &__step__number {
+      
+    }
+  
+    &__step {
+      
+    }
+  
+    &__icon {
+      
+    }
+  }
+}
