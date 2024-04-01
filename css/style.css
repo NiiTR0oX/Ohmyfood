@@ -12,6 +12,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+section {
+  padding: 50px 20px;
+}
+
 header {
   width: 100%;
   height: 63px;
@@ -65,9 +69,21 @@ header img {
   margin: 10px;
 }
 
+@media screen and (min-width: 1024px) {
+  .footer {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 7px;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+}
 .typography {
   background-color: #f6f6f6;
-  padding: 30px;
+  padding: 40px 30px 70px;
   text-align: center;
   font-weight: 700;
 }
@@ -89,6 +105,12 @@ header img {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
+@media screen and (max-width: 1440px) {
+  .typography__title {
+    font-weight: 700;
+    font-size: 40px;
+  }
+}
 .location {
   box-shadow: 0px 2px 2px 0px rgb(0, 0, 0);
   display: flex;
@@ -96,6 +118,7 @@ header img {
   width: 100%;
   height: 50px;
   background-color: #eaeaea;
+  padding: 0;
 }
 .location .fa-map-marker-alt {
   width: 12px;
@@ -108,9 +131,6 @@ header img {
   font-weight: 700;
 }
 
-.tuto {
-  padding: 20px;
-}
 .tuto__title {
   margin-top: 0;
 }
@@ -153,19 +173,25 @@ header img {
   margin: 16px;
 }
 
-@media screen and (max-width: 1440px) {
-  .tuto {
-    max-width: 1440px;
+@media screen and (min-width: 1440px) {
+  .tuto__steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .tuto__step {
+    width: 100%;
   }
 }
 .restaurants {
   background-color: #f6f6f6;
-  padding: 20px;
 }
 
 .cards {
   display: grid;
   gap: 20px;
+  padding: 25px 0 0;
 }
 
 .card {
@@ -180,9 +206,8 @@ header img {
 }
 .card__img {
   width: 100%;
-  height: 150px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  height: 250px;
+  border-radius: 15px 15px 0 0;
   object-fit: cover;
 }
 .card__badge {
@@ -194,8 +219,8 @@ header img {
   border-radius: 2px;
   margin-top: 13px;
   position: absolute;
-  right: 5%;
-  top: 5%;
+  right: 3%;
+  top: 1%;
   font-size: 14px;
   font-weight: 500;
 }
@@ -205,6 +230,7 @@ header img {
   justify-content: space-between;
   display: flex;
   align-items: center;
+  padding: 20px 40px 20px 15px;
 }
 .card__title {
   margin: 0;

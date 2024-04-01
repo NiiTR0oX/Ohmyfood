@@ -21,3 +21,16 @@
   gap: 8px;
   margin: 10px;
 }
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 7px;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+}

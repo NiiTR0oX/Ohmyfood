@@ -1,5 +1,4 @@
 .tuto {
-  padding: 20px;
 
   &__title {
     margin-top: 0;
@@ -48,30 +47,18 @@
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
+
   .tuto {
-    max-width: 1440px;
-    &__title {
-     
-    }
-    h2 {
-     
-    }
-  
     &__steps {
-     
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 30px;
     }
-  
-    &__step__number {
-      
-    }
-  
+
     &__step {
-      
-    }
-  
-    &__icon {
-      
+      width: 100%;
     }
   }
 }
