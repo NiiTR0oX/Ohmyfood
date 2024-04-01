@@ -7,9 +7,9 @@
   background-color: #fff;
   border-radius: 15px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
 
 .enter__info {
-    width: 100%;
     display: flex;
     justify-content: space-between;
   }
@@ -48,4 +48,8 @@
     justify-content: flex-end;
     padding-right: 10px;
   }
+}
+
+@media screen and (max-width: 1440px){
+  
 }

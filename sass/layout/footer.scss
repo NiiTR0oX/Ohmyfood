@@ -19,7 +19,13 @@
   display: flex;
   color: #fff;
   gap: 8px;
-  margin: 10px;
+  margin: 0;
+}
+i {
+  margin: 0;
+}
+h4 {
+  margin: 3px;
 }
 
 @media screen and (min-width: 1024px) {
