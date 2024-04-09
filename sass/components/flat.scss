@@ -2,6 +2,9 @@
   background-color: #fff;
   border-radius: 15px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  animation: slide-to-top 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+  animation-delay: 2s;
+  opacity: 0;
 
   .flat__info {
     width: 100%;
