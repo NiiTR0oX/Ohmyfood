@@ -24,19 +24,25 @@
 i {
   margin: 0;
 }
-h4 {
+h2 {
   margin: 3px;
 }
 
-@media screen and (min-width: 1024px) {
+.fa-handshake-angle {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
   .footer {
     align-items: center;
     justify-content: center;
     flex-direction: row-reverse;
     gap: 7px;
+    nav {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+    }
   }
-  nav {
-    display: flex;
-    flex-direction: row;
-  }
+  
 }

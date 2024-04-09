@@ -48,7 +48,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
 
   .tuto {
     &__steps {
@@ -56,10 +56,35 @@
       flex-direction: row;
       justify-content: space-between;
       gap: 30px;
+      flex-wrap: wrap;
     }
 
     &__step {
-      width: 100%;
+      width: 48%;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+  .tuto {
+
+    h2 {
+      width: 82%;
+      margin: 0 auto;
+    }
+    &__steps {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 30px;
+      flex-wrap: wrap;
+      width: 80%;
+      margin: 0 auto; 
+    }
+
+    &__step {
+      width: 28%;
     }
   }
 }

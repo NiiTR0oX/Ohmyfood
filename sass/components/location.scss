@@ -6,6 +6,8 @@
   height: 50px;
   background-color: #eaeaea;
   padding: 0;
+  z-index: 99;
+  position: relative;
 
   .fa-map-marker-alt {
     width: 12px;
