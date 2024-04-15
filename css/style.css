@@ -63,6 +63,8 @@ header img {
   font-family: "Shrikhand", "cursive";
   font-style: italic;
   font-size: 18px;
+  margin-right: 30px;
+  margin-top: 15px;
 }
 
 .footer__link {
@@ -88,7 +90,7 @@ h2 {
 @media screen and (min-width: 768px) {
   .footer {
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row-reverse;
     gap: 7px;
   }
@@ -96,6 +98,37 @@ h2 {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin-top: 10px;
+    margin-right: 13px;
+  }
+  .footer__space {
+    margin-right: 10px;
+  }
+  .footer__style {
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer {
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    gap: 7px;
+  }
+  .footer nav {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 15px;
+    margin-right: 50px;
+  }
+  .footer__space {
+    margin-right: 10px;
+  }
+  .footer__style {
+    font-weight: 400;
+    font-size: 16px;
   }
 }
 .typography {
@@ -149,7 +182,7 @@ h2 {
 }
 
 .tuto {
-  padding: 20px;
+  padding: 30px;
 }
 .tuto__title {
   margin-top: 0;
@@ -508,7 +541,7 @@ h2 {
   border-radius: 50%;
   width: 48px;
   height: 48px;
-  color: #fff;
+  color: #000;
   position: absolute;
   left: 50%;
   top: 50%;

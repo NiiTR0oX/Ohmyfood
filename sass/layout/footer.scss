@@ -11,6 +11,8 @@
     font-family: "Shrikhand", "cursive";
     font-style: italic;
     font-size: 18px;
+    margin-right: 30px;
+    margin-top: 15px;
   }
 }
 
@@ -35,13 +37,51 @@ h2 {
 @media screen and (min-width: 768px) {
   .footer {
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row-reverse;
     gap: 7px;
     nav {
       display: flex;
       flex-direction: row;
       gap: 10px;
+      margin-top: 10px;
+      margin-right: 13px;
+    }
+
+    &__space {
+      margin-right: 10px;
+    }
+
+    &__style {
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+
+  .footer {
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    gap: 7px;
+    nav {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      margin-top: 15px;
+      margin-right: 50px;
+    }
+
+    &__space {
+      margin-right: 10px;
+    }
+
+    &__style {
+      font-weight: 400;
+      font-size: 16px;
     }
   }
   
