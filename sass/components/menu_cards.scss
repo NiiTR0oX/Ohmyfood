@@ -78,5 +78,18 @@
 
 
 @media screen and (max-width: 1440px) {
+
+  .cardimg {
+    width: 100%;
+    object-fit: cover;
+    height: 360px;
+  }
+  .cards {
+    gap: 50px;
+    width: 80%;
+    .card {
+      width: 40%;
+    }
+  }
   
 }

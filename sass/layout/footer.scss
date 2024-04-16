@@ -86,3 +86,21 @@ h2 {
   }
   
 }
+
+@media screen and (min-width: 1440px) {
+  .footer {
+
+    h3 {
+      margin-top: 23px;
+    }
+    nav {
+      margin-top: 23px;
+      gap: 15px;
+      margin-right: 80px;
+    }
+
+    &__space {
+      margin-right: 30px;
+    }
+  }
+}

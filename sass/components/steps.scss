@@ -51,12 +51,21 @@
 @media screen and (min-width: 1024px) {
 
   .tuto {
+
+    h2 {
+      width: 85%;
+      margin: 0 auto;
+      padding-left: 0;
+    }
+
     &__steps {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       gap: 30px;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
+      width: 88%;
+      margin-left: 75px;
     }
 
     &__step {
@@ -72,6 +81,7 @@
     h2 {
       width: 82%;
       margin: 0 auto;
+      padding-left: 0;
     }
     &__steps {
       display: flex;
